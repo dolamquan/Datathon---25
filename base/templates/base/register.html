@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static 'styles/register_global.css'%}" />
+    <link rel="stylesheet" href="{% static 'styles/register_style.css'%}" />
+  </head>
+  <body>
+    <form method="POST" action="">
+    {% csrf_token %}
+    {% for hidden_field in form.hidden_fields %}
+        {{hidden_field}}
+    {%endfor%}
+    <div class="sign-up">
+      <div class="div">
+        <div class="overlap-group">
+          <img class="solar-heart-bold" src="https://c.animaapp.com/1rWwwvnk/img/solar-heart-bold.svg" />
+        </div>
+        <div class="text-wrapper">Sign Up</div>
+
+        <div class="component">
+          <!-- <img class="rectangle" src="https://c.animaapp.com/1rWwwvnk/img/rectangle-2-2.svg" /> -->
+          <div class="patient-name">Username</div>
+          <br>
+          <br>
+          <!-- <input type="text" name="username" placeholder="Enter Username"/> -->
+           {{ form.username }}
+        </div>
+
+
+        <div class="component-3">
+          <!-- <img class="rectangle-4" src="https://c.animaapp.com/1rWwwvnk/img/rectangle-2-3.svg" /> -->
+          <div class="patient-name-2">Email</div>
+          <br>
+          <br>
+          <!-- <input type="email" name="email" placeholder="Enter email"/> -->
+          {{ form.email }}
+        </div>
+
+        <div class="component-4">
+          <!-- <img class="rectangle-2" src="https://c.animaapp.com/1rWwwvnk/img/rectangle-2.svg" /> -->
+          <div class="patient-name-2">Password</div>
+          <br>
+            <br>
+            <!-- <input type="password" name="password1" placeholder="Enter Password"/> -->
+             {{ form.password1 }}
+        </div>
+
+        <div class="component-5">
+            <!-- <img class="rectangle-2" src="https://c.animaapp.com/1rWwwvnk/img/rectangle-2.svg" /> -->
+            <div class="patient-name-2">Password Confirmation</div>
+            <br>
+              <br>
+              <!-- <input type="password" name="password2" placeholder="Enter Password"/> -->
+               {{ form.password2 }}
+          </div>
+
+        <div class="div-wrapper">
+            <button class="create-account">create account</button>
+        </div>
+      </div>
+    </div>
+    </form>
+  </body>
+</html>
