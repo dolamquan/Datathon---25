@@ -1,0 +1,145 @@
+.log-in {
+    position: relative;
+    width: 1728px;
+    height: 1407px;
+    background-color: #ffffff;
+    }
+    
+.log-in .overlap-group {
+    position: absolute;
+    width: 1728px;
+    height: 743px;
+    top: 0;
+    left: 0;
+    background-image: url(https://c.animaapp.com/1rWwwvnk/img/rectangle-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    }
+    
+.log-in .solar-heart-bold {
+    position: absolute;
+    width: 161px;
+    height: 161px;
+    top: 552px;
+    left: 74px;
+    }
+    
+.log-in .text-wrapper {
+    position: absolute;
+    width: 721px;
+    top: 821px;
+    left: 114px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #414141;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    
+.log-in .button {
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    width: 126px;
+    height: 62px;
+    top: 1272px;
+    left: 126px;
+    background-color: #dd5a5a;
+    border-radius: 28px;
+    }
+    
+.log-in .div {
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    
+.log-in .component {
+    top: 971px;
+    position: absolute;
+    width: 701px;
+    height: 107px;
+    left: 114px;
+    }
+    
+.log-in .rectangle {
+    position: absolute;
+    width: 701px;
+    height: 62px;
+    top: 46px;
+    left: 0;
+    }
+    
+.log-in .patient-name {
+    position: absolute;
+    width: 250px;
+    top: -1px;
+    left: 14px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #414141;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    
+.log-in .don-t-have-an {
+    position: absolute;
+    width: 552px;
+    top: 1285px;
+    left: 283px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #414141;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    
+.log-in .span {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #414141;
+    font-size: 28px;
+    letter-spacing: 0;
+    }
+    
+.log-in .text-wrapper-2 {
+    text-decoration: underline;
+    }
+    
+.log-in .component-2 {
+    top: 1100px;
+    position: absolute;
+    width: 701px;
+    height: 107px;
+    left: 114px;
+    }
+
+input[type="text"],
+input[type="password"] {
+      width: 100%;
+      padding: 18px 24px;       /* increased vertical and horizontal padding */
+      margin: 12px 0;
+      display: block;
+      background-color: #ddd;
+      border: none;
+      border-radius: 25px;      /* more curve */
+      font-size: 18px;          /* larger text */
+      box-sizing: border-box;
+    }
+    
+input[type="text"]:focus,
+input[type="password"]:focus {
+      outline: none;
+      background-color: #ccc;
+    }
+    

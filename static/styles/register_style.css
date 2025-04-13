@@ -1,0 +1,198 @@
+.sign-up {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sign-up .div {
+    background-color: #ffffff;
+    width: 1728px;
+    height: 1825px;
+    position: relative;
+  }
+  
+  .sign-up .overlap-group {
+    position: absolute;
+    width: 1728px;
+    height: 743px;
+    top: 0;
+    left: 0;
+    background-image: url(https://c.animaapp.com/1rWwwvnk/img/rectangle-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .sign-up .solar-heart-bold {
+    position: absolute;
+    width: 161px;
+    height: 161px;
+    top: 552px;
+    left: 74px;
+  }
+  
+  .sign-up .text-wrapper {
+    position: absolute;
+    width: 721px;
+    top: 821px;
+    left: 114px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #414141;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-up .component {
+    position: absolute;
+    width: 325px;
+    height: 107px;
+    top: 975px;
+    left: 114px;
+  }
+  
+  .sign-up .rectangle {
+    width: 325px;
+    position: absolute;
+    height: 62px;
+    top: 46px;
+    left: 0;
+  }
+  
+  .sign-up .patient-name {
+    position: absolute;
+    top: -1px;
+    left: 7px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #414141;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-up .component-2 {
+    position: absolute;
+    width: 351px;
+    height: 107px;
+    top: 978px;
+    left: 464px;
+  }
+  
+  .sign-up .img {
+    width: 351px;
+    position: absolute;
+    height: 62px;
+    top: 46px;
+    left: 0;
+  }
+  
+  .sign-up .component-3 {
+    position: absolute;
+    width: 701px;
+    height: 107px;
+    top: 1107px;
+    left: 114px;
+  }
+  
+  .sign-up .rectangle-2 {
+    width: 701px;
+    position: absolute;
+    height: 62px;
+    top: 46px;
+    left: 0;
+  }
+  
+  .sign-up .patient-name-2 {
+    position: absolute;
+    top: -1px;
+    left: 14px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #414141;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-up .component-4 {
+    position: absolute;
+    width: 701px;
+    height: 107px;
+    top: 1236px;
+    left: 114px;
+  }
+  
+  .sign-up .component-5 {
+    position: absolute;
+    width: 701px;
+    height: 107px;
+    top: 1365px;
+    left: 114px;
+  }
+
+  .sign-up .div-wrapper {
+    position: absolute;
+    width: 318px;
+    height: 62px;
+    top: 1551px;
+    left: 121px;
+    background-color: #dd5a5a;
+    border-radius: 28px;
+  }
+  
+  .sign-up .text-wrapper-2 {
+    position: absolute;
+    width: 243px;
+    top: 13px;
+    left: 42px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+      width: 100%;
+      padding: 18px 24px;       /* increased vertical and horizontal padding */
+      margin: 12px 0;
+      display: block;
+      background-color: #ddd;
+      border: none;
+      border-radius: 25px;      /* more curve */
+      font-size: 18px;          /* larger text */
+      box-sizing: border-box;
+    }
+    
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+      outline: none;
+      background-color: #ccc;
+    }
+  
+    .create-account {
+      background-color: #dd5a5a;
+      color: #fff;
+      font-weight: 700;
+      font-size: 16px;
+      text-transform: lowercase;
+      border: none;
+      border-radius: 28px;
+      padding: 14px 28px;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .create-account:hover {
+      background-color: #c24e4e;
+    }
+    
